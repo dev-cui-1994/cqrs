@@ -53,6 +53,12 @@ namespace OrderApi.Controllers.v1
             }
         }
 
+        [HttpPost]
+        public async Task<ActionResult> Updates()
+        {
+            return Ok();
+        }
+
         /// <summary>
         ///     Action to retrieve all pay orders.
         /// </summary>
